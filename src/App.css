@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#__next {
+  height: 100%;
+}
+
+
+.app-container {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  overflow: hidden; /* Prevent content from creating scroll */
+}
+
+.content-container {
+  width: 100%;
+  max-width: 100vw;
+  overflow-x: clip;
+}
+
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.space-mono-regular-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.space-mono-bold-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.jura-light { font-family: "Jura", sans-serif; font-weight: 300; }
+.jura-regular { font-family: "Jura", sans-serif; font-weight: 400; }
+.jura-medium { font-family: "Jura", sans-serif; font-weight: 500; }
+.jura-semibold { font-family: "Jura", sans-serif; font-weight: 600; }
+.jura-bold { font-family: "Jura", sans-serif; font-weight: 700; }
+
