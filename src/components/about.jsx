@@ -1,6 +1,5 @@
-
 import me from "../assets/me.jpg"
-
+ 
 const About = () => {
   return (
     <section id="about" className="py-20 bg-black relative overflow-hidden">
@@ -11,18 +10,18 @@ const About = () => {
       
       <div className="container mx-auto px-6 relative z-10">
         <div className="flex items-center justify-center mb-16">
-          <div className="text-pink-500 font-mono text-3xl mr-3">{`{`}</div>
+          <div className="text-pink-500 font-mono text-5xl mr-3">{`{`}</div>
           <h2 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 jura-bold">About Me</h2>
-          <div className="text-cyan-500 font-mono text-3xl ml-3">{`}`}</div>
+          <div className="text-cyan-500 font-mono text-5xl ml-3">{`}`}</div>
         </div>
         
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="relative mx-auto">
             <div className="w-[450px] h-[450px] relative">
-              <div className="absolute -top-3 -left-3 w-8 h-8 border-t-2 border-l-2 border-cyan-500"></div>
-              <div className="absolute -top-3 -right-3 w-8 h-8 border-t-2 border-r-2 border-pink-500"></div>
-              <div className="absolute -bottom-3 -left-3 w-8 h-8 border-b-2 border-l-2 border-pink-500"></div>
-              <div className="absolute -bottom-3 -right-3 w-8 h-8 border-b-2 border-r-2 border-cyan-500"></div>
+              <div className="absolute -top-3 -left-3 w-8 h-8 border-t-4 border-l-4 border-cyan-500"></div>
+              <div className="absolute -top-3 -right-3 w-8 h-8 border-t-4 border-r-4 border-pink-500"></div>
+              <div className="absolute -bottom-3 -left-3 w-8 h-8 border-b-4 border-l-4 border-pink-500"></div>
+              <div className="absolute -bottom-3 -right-3 w-8 h-8 border-b-4 border-r-4 border-cyan-500"></div>
               
               {/* personal image */}
 
@@ -34,7 +33,7 @@ const About = () => {
                     className="w-full h-full object-cover rounded-lg"
                   />
                 </div>
-              </div>
+              </div> 
               
               <div className="absolute -top-1 left-1/2 transform -translate-x-1/2 w-1/3 h-1 bg-cyan-500/50"></div>
               <div className="absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-1/3 h-1 bg-pink-500/50"></div>
@@ -46,7 +45,7 @@ const About = () => {
           </div>
           
           <div className="space-y-10">
-            <div className="relative border-l-2 border-cyan-500/50 pl-6">
+            <div className="relative border-l-2 border-pnik-500/50 pl-6">
               <div className="absolute -left-1.5 top-0 w-3 h-3 rounded-full bg-cyan-500"></div>
               <h3 className="text-3xl font-bold text-white mb-6 space-mono-regular">
                 Web Developer & Creative Designer
@@ -99,10 +98,11 @@ const About = () => {
         </div>
       </div>
       
-      <div className="absolute top-0 left-0 w-24 h-24 border-l-2 border-t-2 border-cyan-500/30"></div>
-      <div className="absolute top-0 right-0 w-24 h-24 border-r-2 border-t-2 border-pink-500/30"></div>
-      <div className="absolute bottom-0 left-0 w-24 h-24 border-l-2 border-b-2 border-pink-500/30"></div>
-      <div className="absolute bottom-0 right-0 w-24 h-24 border-r-2 border-b-2 border-cyan-500/30"></div>
+      <div className="absolute top-0 left-0 w-48 h-48 border-l-4 border-t-4 border-cyan-500/40"></div>
+      <div className="absolute top-0 right-0 w-48 h-48 border-r-4 border-t-4 border-pink-500/40"></div>
+      <div className="absolute bottom-0 left-0 w-48 h-48 border-l-4 border-b-4 border-pink-500/40"></div>
+      <div className="absolute bottom-0 right-0 w-48 h-48 border-r-4 border-b-4 border-cyan-500/40"></div>
+
     </section>
   );
 };
