@@ -6,6 +6,7 @@ html, body {
   margin: 0;
   padding: 0;
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 #__next {
@@ -55,4 +56,3 @@ html, body {
 .jura-medium { font-family: "Jura", sans-serif; font-weight: 500; }
 .jura-semibold { font-family: "Jura", sans-serif; font-weight: 600; }
 .jura-bold { font-family: "Jura", sans-serif; font-weight: 700; }
-
