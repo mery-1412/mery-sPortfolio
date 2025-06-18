@@ -88,9 +88,11 @@ const About = () => {
                 <span className="px-3 py-1 bg-cyan-900/30 border border-cyan-500/30 rounded-md text-cyan-400 text-sm">Node.js</span>
                 <span className="px-3 py-1 bg-cyan-900/30 border border-cyan-500/30 rounded-md text-cyan-400 text-sm">TailwindCSS</span>
                 <span className="px-3 py-1 bg-pink-900/30 border border-pink-500/30 rounded-md text-pink-400 text-sm">MERN</span>
+                <span className="px-3 py-1 bg-purple-900/30 border border-purple-500/30 rounded-md text-purple-400 text-sm">Cybersecurity</span>
                 <span className="px-3 py-1 bg-purple-900/30 border border-purple-500/30 rounded-md text-purple-400 text-sm">Design</span>
                 <span className="px-3 py-1 bg-purple-900/30 border border-purple-500/30 rounded-md text-purple-400 text-sm">UI/UX</span>
                 <span className="px-3 py-1 bg-purple-900/30 border border-purple-500/30 rounded-md text-purple-400 text-sm">Video Editing</span>
+
 
               </div>
             </div>

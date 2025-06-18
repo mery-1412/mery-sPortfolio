@@ -4,6 +4,7 @@ import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import About from '../components/about';
 import Contact from '../components/contact';
+import Carousel from '../components/carousel';
 
 const Home = () => {
     return(
@@ -16,10 +17,13 @@ const Home = () => {
             <div id="about">
                 <About />
             </div>
+            <div id="projects">
+                <Carousel/>
+            </div>
             <div id="contact">
                 <Contact/>
             </div>
-            <div id="projects"></div>
+            
             <div id="resume"></div>
       
             <Footer />

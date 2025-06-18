@@ -69,13 +69,19 @@ const Hero = () => {
 
          
             <div className="flex gap-4 animate-fadeInUp animation-delay-400">
-              <button className="jura-bold px-8 py-4 bg-gradient-to-r from-purple-500 to-cyan-500  text-white font-semibold rounded-md border border-cyan-400/30 hover:from-purple-700   hover:to-cyan-700 transition-all duration-300 shadow-lg shadow-cyan-500/25 hover:shadow-cyan-400/40 hover:scale-105 transform relative overflow-hidden">
+              <a 
+                href="#projects" 
+                className="jura-bold px-8 py-4 bg-gradient-to-r from-purple-500 to-cyan-500 text-white font-semibold rounded-md border border-cyan-400/30 hover:from-purple-700 hover:to-cyan-700 transition-all duration-300 shadow-lg shadow-cyan-500/25 hover:shadow-cyan-400/40 hover:scale-105 transform relative overflow-hidden"
+              >
                 View Projects
-              </button>
+              </a>
               
-              <button className="jura-bold px-8 py-4 border-2 border-pink-400 text-pink-300 font-semibold rounded-md hover:bg-pink-500/10 transition-all duration-300 hover:text-pink-300 hover:shadow-lg hover:shadow-pink-500/25 hover:scale-105 transform">
+              <a 
+                href="#contact" 
+                className="jura-bold px-8 py-4 border-2 border-pink-400 text-pink-300 font-semibold rounded-md hover:bg-pink-500/10 transition-all duration-300 hover:text-pink-300 hover:shadow-lg hover:shadow-pink-500/25 hover:scale-105 transform"
+              >
                 Contact Me
-              </button>
+              </a>
             </div>
           </div>
 
