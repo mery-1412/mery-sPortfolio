@@ -75,24 +75,31 @@ const About = () => {
               </p>
             </div>
             
+
+            <div className="relative border-l-2 border-purple-500/50 pl-6">
+              <div className="absolute -left-1.5 top-0 w-3 h-3 rounded-full bg-purple-500"></div>
+              <h3 className="text-3xl font-bold text-white mb-6 space-mono-regular">
+                Cybersecurity Enthusiast
+              </h3>
+              <p className="text-gray-300 jura-regular text-lg">
+                I’m also a cybersecurity enthusiast focused on building my knowledge in Security Operations Center (SOC) work, including monitoring, threat detection, and incident response.              
+              </p>
+            </div>
+
+
             <div className="pt-6 border-t border-cyan-500/30">
               <h4 className="text-white font-mono mb-4 flex items-center">
                 <span className="text-pink-500 mr-2">&lt;</span>
-                Tech Stack
+                Skills
                 <span className="text-pink-500 ml-2">/&gt;</span>
               </h4>
               
               <div className="flex flex-wrap gap-3">
-                <span className="px-3 py-1 bg-cyan-900/30 border border-cyan-500/30 rounded-md text-cyan-400 text-sm">React</span>
-                <span className="px-3 py-1 bg-cyan-900/30 border border-cyan-500/30 rounded-md text-cyan-400 text-sm">Next</span>
-                <span className="px-3 py-1 bg-cyan-900/30 border border-cyan-500/30 rounded-md text-cyan-400 text-sm">Node.js</span>
-                <span className="px-3 py-1 bg-cyan-900/30 border border-cyan-500/30 rounded-md text-cyan-400 text-sm">TailwindCSS</span>
-                <span className="px-3 py-1 bg-pink-900/30 border border-pink-500/30 rounded-md text-pink-400 text-sm">MERN</span>
-                <span className="px-3 py-1 bg-purple-900/30 border border-purple-500/30 rounded-md text-purple-400 text-sm">Cybersecurity</span>
-                <span className="px-3 py-1 bg-purple-900/30 border border-purple-500/30 rounded-md text-purple-400 text-sm">Design</span>
-                <span className="px-3 py-1 bg-purple-900/30 border border-purple-500/30 rounded-md text-purple-400 text-sm">UI/UX</span>
+                <span className="px-3 py-1 bg-pink-900/30 border border-pink-500/30 rounded-md text-pink-400 text-sm">MERN Stack</span> 
+                <span className="px-3 py-1 bg-green-900/30 border border-green-500/30 rounded-md text-green-400 text-sm">Cybersecurity</span>
+                <span className="px-3 py-1 bg-purple-900/30 border border-purple-500/30 rounded-md text-purple-400 text-sm">Graphic Design</span>
+                <span className="px-3 py-1 bg-purple-900/30 border border-purple-500/30 rounded-md text-purple-400 text-sm">UI/UX Design</span>
                 <span className="px-3 py-1 bg-purple-900/30 border border-purple-500/30 rounded-md text-purple-400 text-sm">Video Editing</span>
-
 
               </div>
             </div>
