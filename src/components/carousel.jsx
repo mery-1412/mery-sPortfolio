@@ -4,6 +4,7 @@ import pastelPortImg from '../assets/projectsImages/pastelPort.png';
 import votexImg from '../assets/projectsImages/votex.png';
 import hadjImg from '../assets/projectsImages/hadj.png';
 import bookstore from '../assets/projectsImages/bookstore.png'; 
+import fiveGIDS from '../assets/projectsImages/5gids.png';
 
 const projects = [
   { 
@@ -29,7 +30,13 @@ const projects = [
     title: "Bookstore", 
     desc: "A modern online bookstore with intuitive browsing and purchasing experience.",
     tech: ["MERN Stack"]
-  }
+  },
+{
+  img: fiveGIDS,
+  title: "5GIDS",
+  desc: "A real-time intrusion detection system that detects PFCP flooding attacks on the 5G core network using machine learning, with a live monitoring dashboard.",
+  tech: ["Python", "Rust", "TensorFlow", "ONNX", "Open5GS", "UERANSIM"]
+}
 ];
 
 const Carousel = () => {

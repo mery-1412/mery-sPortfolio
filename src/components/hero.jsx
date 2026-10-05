@@ -64,7 +64,7 @@ const Hero = () => {
               </div>
               
               <p className="text-gray-300 jura-bold text-xl max-w-lg leading-relaxed animate-fadeInUp animation-delay-200 border-l-2 border-cyan-500/50 pl-4">
-                Web developer and creative designer crafting websites, digital designs, and video content              </p>
+                Web developer and designer with a cybersecurity background, crafting secure, user-focused digital experiences             </p>
             </div>
 
          

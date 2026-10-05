@@ -1,4 +1,4 @@
-import me from "../assets/me.jpg"
+import me from '../me.jpg';
  
 const About = () => {
   return (
@@ -53,36 +53,39 @@ const About = () => {
               <p className="text-gray-300 jura-bold text-lg">
                 I'm a passionate web developer who enjoys creating clean and responsive websites. I'm building my skills in frontend, backend development and design. I'm always learning and exploring new ways to improve and grow in this field.
               </p>
-            </div>
+            </div>  
             
             <div className="relative border-l-2 border-pink-500/50 pl-6">
               <div className="absolute -left-1.5 top-0 w-3 h-3 rounded-full bg-pink-500"></div>
               <h3 className="text-3xl font-bold text-white mb-6 space-mono-regular">
-                My Journey
+                Network & Security Engineer
               </h3>
               <p className="text-gray-300 jura-bold text-lg">
-                My journey began as a Computer Systems Engineering student with a growing passion for web development. Along the way, I also developed a strong interest in cybersecurity, and I continue to explore both fields as I grow and learn.
-              </p>
+                I work on network security and intrusion detection, and I build secure,
+  responsive web applications. My final-year project detects attacks on 5G
+  core networks in real time using machine learning.   
+  </p>
             </div>
             
             <div className="relative border-l-2 border-purple-500/50 pl-6">
               <div className="absolute -left-1.5 top-0 w-3 h-3 rounded-full bg-purple-500"></div>
               <h3 className="text-3xl font-bold text-white mb-6 space-mono-regular">
-                What I Do
+                My Journey
               </h3>
               <p className="text-gray-300 jura-regular text-lg">
-                I build responsive and user-friendly websites, focusing on clean layouts and simple design. I enjoy experimenting with visual styles and improving my skills as I go. I also explore video editing, where I put together engaging visual content that supports digital projects.
-              </p>
+                  My journey began as a Computer Systems Engineering student with a growing passion for web development. Along the way, I developed a strong interest in cybersecurity, and I graduated in 2026 with both an Engineer's and a Master's degree in Computer Systems Engineering, with a focus on networks and security. I continue to explore both fields as I grow and learn.           
+
+           </p>
             </div>
             
 
             <div className="relative border-l-2 border-purple-500/50 pl-6">
               <div className="absolute -left-1.5 top-0 w-3 h-3 rounded-full bg-purple-500"></div>
               <h3 className="text-3xl font-bold text-white mb-6 space-mono-regular">
-                Cybersecurity Enthusiast
+                What I Do
               </h3>
               <p className="text-gray-300 jura-regular text-lg">
-                I’m also a cybersecurity enthusiast focused on building my knowledge in Security Operations Center (SOC) work, including monitoring, threat detection, and incident response.              
+                I build responsive and user-friendly websites, focusing on clean layouts and simple design. I enjoy experimenting with visual styles and improving my skills as I go.
               </p>
             </div>
 
@@ -97,9 +100,10 @@ const About = () => {
               <div className="flex flex-wrap gap-3">
                 <span className="px-3 py-1 bg-pink-900/30 border border-pink-500/30 rounded-md text-pink-400 text-sm">MERN Stack</span> 
                 <span className="px-3 py-1 bg-green-900/30 border border-green-500/30 rounded-md text-green-400 text-sm">Cybersecurity</span>
+                <span className="px-3 py-1 bg-blue-900/30 border border-blue-500/30 rounded-md text-blue-400 text-sm">Networks</span>
                 <span className="px-3 py-1 bg-purple-900/30 border border-purple-500/30 rounded-md text-purple-400 text-sm">Graphic Design</span>
                 <span className="px-3 py-1 bg-purple-900/30 border border-purple-500/30 rounded-md text-purple-400 text-sm">UI/UX Design</span>
-                <span className="px-3 py-1 bg-purple-900/30 border border-purple-500/30 rounded-md text-purple-400 text-sm">Video Editing</span>
+                <span className="px-3 py-1 bg-orange-900/30 border border-orange-500/30 rounded-md text-orange-400 text-sm">AI</span>
 
               </div>
             </div>

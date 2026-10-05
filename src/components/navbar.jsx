@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import logo from '../../public/logo.png';
-import { FiX, FiMenu } from 'react-icons/fi'; // Make sure to import icons
+import logo from '../logo.png';
+import { FiX, FiMenu } from 'react-icons/fi'; 
+import resume from '../assets/Merieme_AitChabane_CV.pdf';
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -60,9 +61,9 @@ const Navbar = () => {
                 <span className="absolute left-0 -bottom-1 w-0 h-0.5 bg-gradient-to-r from-cyan-400 to-pink-500 group-hover:w-full transition-all duration-300"></span>
                 Contact
               </a>
-              <a 
-                onClick={handlePopUp}
-                className="jura-bold px-4 py-2 rounded-md bg-gradient-to-r from-cyan-500/80 to-pink-500/80 text-white transition-all duration-300 hover:shadow-[0_0_15px_rgba(34,211,238,0.5)] hover:from-cyan-400 hover:to-pink-400 cursor-pointer"
+         
+              <a href={resume} download="Merieme_AitChabane_CV.pdf" 
+              className="jura-bold px-4 py-2 rounded-md bg-gradient-to-r from-cyan-500/80 to-pink-500/80 text-white transition-all duration-300 hover:shadow-[0_0_15px_rgba(34,211,238,0.5)] hover:from-cyan-400 hover:to-pink-400 cursor-pointer"
               >
                 Resume
               </a>
@@ -114,15 +115,14 @@ const Navbar = () => {
             >
               Contact
             </a>
-            <a 
-              onClick={() => {
-                handlePopUp();
-                closeMobileMenu();
-              }}
-              className="jura-bold px-6 py-3 rounded-md bg-gradient-to-r from-cyan-500/80 to-pink-500/80 text-white transition-all duration-300 hover:shadow-[0_0_15px_rgba(34,211,238,0.5)] hover:from-cyan-400 hover:to-pink-400 text-center mt-4 cursor-pointer"
-            >
-              Resume
-            </a>
+          <a
+            href="/Merieme_AitChabane_CV.pdf"
+            download="Merieme_AitChabane_CV.pdf"
+            onClick={closeMobileMenu}
+            className="jura-bold px-6 py-3 rounded-md bg-gradient-to-r from-cyan-500/80 to-pink-500/80 text-white transition-all duration-300 hover:shadow-[0_0_15px_rgba(34,211,238,0.5)] hover:from-cyan-400 hover:to-pink-400 text-center mt-4 cursor-pointer"
+          >
+            Resume
+          </a>
 
        
           </div>
